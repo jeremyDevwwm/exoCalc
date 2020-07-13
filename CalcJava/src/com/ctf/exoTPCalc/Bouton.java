@@ -1,5 +1,5 @@
 package com.ctf.exoTPCalc;
-import com.ctf.exoTPCalc.observer.Observe;
+import com.ctf.exoTPCalc.observer.Observed;
 import com.ctf.exoTPCalc.observer.Observer;
 
 import javax.swing.*;
@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 
-public class Bouton extends JPanel implements Observe {
+public class Bouton extends JPanel implements Observed {
     String[] values = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
     static String btnVal = "";
     private JButton btn = new JButton();
